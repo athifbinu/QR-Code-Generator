@@ -5,7 +5,7 @@ import "../style/App.scss"
 
 import QRCode from 'react-qr-code'
 
-import {  toast } from 'react-toastify';
+
 
 const Hero = () => {
 
@@ -22,7 +22,7 @@ const Hero = () => {
             return;
         }
         SetVisible(true)
-          toast.success("QR Code Success")
+        
     }
 
 
